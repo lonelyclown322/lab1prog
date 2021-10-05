@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class Lab1 {
+public class scratch {
     public static void printAnswer(double[][] array){
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
@@ -38,8 +38,8 @@ public class Lab1 {
             x[i] = rand();
         }
         double[][] b = new double[ALENGTH][AHEIGHT];
-        for (int i = 0; i < ALENGTH; i++) {
-            for (int j = 0; j < AHEIGHT; j++) {
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < x.length; j++) {
                 if (a[i] == 8) {
                     b[i][j] = firstCond(x[j]);
                 }
